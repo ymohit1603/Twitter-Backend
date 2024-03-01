@@ -1,0 +1,22 @@
+{
+  "name": "twitter-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node Dist/index",
+    "build": "tsc-p .",
+    "dev": "tsc-watch --onSuccess \"yarn start\""
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "@prisma/client": "5.10.2",
+    "express": "^4.18.3",
+    "graphql": "^16.8.1",
+    "prisma": "^5.10.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^6.0.4"
+  }
+}
